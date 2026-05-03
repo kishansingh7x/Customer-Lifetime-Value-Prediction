@@ -61,3 +61,75 @@ This project answers that by predicting how much revenue a customer will generat
 ---
 
 ## 📁 Project Structure
+customer-lifetime-value-prediction/
+├── CLTV_Prediction.ipynb     # Main Jupyter Notebook
+├── demo.html                 # Live interactive demo
+├── eda_plots.png             # EDA visualizations
+├── correlation_heatmap.png   # Feature correlation
+├── model_comparison.png      # Model comparison chart
+├── actual_vs_predicted.png   # Best model results
+├── feature_importance.png    # Feature importance chart
+└── README.md                 # Project documentation
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/customer-lifetime-value-prediction.git
+cd customer-lifetime-value-prediction
+```
+
+### 2. Install dependencies
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+### 3. Download the dataset
+Download `2019-Oct.csv.gz` from [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) and place it in the project folder.
+
+### 4. Run the notebook
+```bash
+jupyter notebook CLTV_Prediction.ipynb
+```
+
+### 5. Open the live demo
+Simply double-click `demo.html` — opens in any browser, no server needed.
+
+---
+
+## 🖥️ Live Demo Features
+
+- Enter Recency, Frequency, Monetary values manually
+- Or click preset buttons (VIP / Regular / Inactive / New Customer)
+- Instantly see predicted CLTV and customer segment
+- View feature contribution breakdown
+- See all 5 model R² scores
+
+---
+
+## 🛠️ Technologies Used
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data-green)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+
+- **Python 3.10**
+- **Pandas** — Data manipulation
+- **NumPy** — Numerical computing
+- **Matplotlib & Seaborn** — Data visualization
+- **Scikit-learn** — Machine learning models
+- **Jupyter Notebook** — Development environment
+- **HTML/CSS/JavaScript** — Live demo interface
+
+---
+
+## 👤 Author
+
+**Kisha** — AI/ML Exhibition Project 2026  
+📧 your-kishansingh7x@gmail.com  
+🔗 [GitHub](https://github.com/kishansingh7x)
+
+---

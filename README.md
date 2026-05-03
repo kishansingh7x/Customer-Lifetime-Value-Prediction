@@ -128,8 +128,8 @@ Simply double-click `demo.html` — opens in any browser, no server needed.
 
 ## 👤 Author
 
-**Kisha** — AI/ML Exhibition Project 2026  
-📧 your-kishansingh7x@gmail.com  
+**Kishan** — AI/ML Exhibition Project 2026  
+📧 kishansingh7x@gmail.com  
 🔗 [GitHub](https://github.com/kishansingh7x)
 
 ---
